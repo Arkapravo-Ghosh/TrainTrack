@@ -1,0 +1,16 @@
+repos:
+  - repo: local
+    hooks:
+      - id: black-uv
+        name: Black via uv
+        entry: uv run black app
+        language: system
+        always_run: true
+        pass_filenames: false
+
+      - id: pylint-uv
+        name: Pylint via uv
+        entry: uv run pylint app
+        language: system
+        always_run: true
+        pass_filenames: false

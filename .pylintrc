@@ -1,0 +1,15 @@
+[MESSAGES CONTROL]
+disable = missing-module-docstring,
+          broad-except,
+          missing-function-docstring,
+          missing-class-docstring,
+          duplicate-code,
+          too-many-locals,
+          too-many-arguments,
+          too-many-statements,
+
+[BASIC]
+min-public-methods=0
+
+[FORMAT]
+max-line-length=200
